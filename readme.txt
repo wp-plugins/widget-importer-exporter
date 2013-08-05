@@ -2,8 +2,8 @@
 Contributors: stevengliebe, churchthemes
 Tags: widgets, widget, importer, exporter, import, export, backup
 Requires at least: 3.5
-Tested up to: 3.5.2
-Stable tag: 0.8
+Tested up to: 3.6
+Stable tag: trunk
 License: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Import and export your widgets.
@@ -21,6 +21,13 @@ Importation takes into consideration sidebars not existing in the current theme 
 = Exporting =
 
 Widget Importer & Exporter can create an export file (in JSON format with .wie extension) out of currently active widgets. This file can be imported into other sites using this plugin or used to restore widgets to the same site later.
+
+= Translations =
+
+The following translations are included.
+
+* English (default)
+* Spanish (es_ES) by [Eduardo Larequi](http://www.labitacoradeltigre.com/)
 
 = Developers =
 
@@ -41,26 +48,4 @@ After activation, go to *Tools > Widget Import/Export*
 
 == Changelog ==
 
-= 0.8 =
-* Add wie_widget_settings filter
-
-= 0.7 =
-* Various fixes, improvements
-
-= 0.6 =
-* Import hooks, translation file, code clean up
-
-= 0.5 =
-* Finished importing
-
-= 0.4 =
-* Import error checking and results table
-
-= 0.3 =
-* Uploading finished
-
-= 0.2 =
-* Minor clean up
-
-= 0.1 =
-* First release - export only
+See [release tags](https://github.com/stevengliebe/widget-importer-exporter/tags) on GitHub.
