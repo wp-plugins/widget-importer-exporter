@@ -2,7 +2,7 @@
 Contributors: stevengliebe, churchthemes
 Tags: widgets, widget, importer, exporter, import, export, backup
 Requires at least: 3.5
-Tested up to: 3.8.1
+Tested up to: 3.9
 Stable tag: trunk
 License: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -28,6 +28,7 @@ The following translations are included.
 
 * English (default)
 * Spanish (es_ES) by [Eduardo Larequi](http://www.labitacoradeltigre.com/)
+* Spanish (fr_FR) by [Jose Kost](http://josekost.fr/)
 * Serbo-Croatian (sr_RS) by Borisa Djuraskovic of [Web Hosting Hub](http://www.webhostinghub.com)
 
 = Developers =
@@ -48,6 +49,12 @@ This project is made possible by [churchthemes.com](http://churchthemes.com) ([@
 Please see [Installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins) in the WordPress Codex.
 
 After activation, go to *Tools > Widget Import/Export*
+
+== Frequently Asked Questions ==
+
+= Why does the JSON export file use a .wie extension? =
+
+The export file contains JSON data that is not compatible with any other plugin. Therefore it has a proprietary file extension. This keeps people from confusing export files from other widget import/export plugins.
 
 == Screenshots ==
 
